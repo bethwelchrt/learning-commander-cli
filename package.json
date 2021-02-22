@@ -4,19 +4,19 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "bcheruiyot": "index.js"
+    "electroreview": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "bcheruiyot": "git+https://github.com/bethwelchrt/learning-commander-cli.git"
+    "electroreview": "git+https://github.com/bethwelchrt/learning-commander-cli.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "bcheruiyot": "https://github.com/bethwelchrt/learning-commander-cli/issues"
+    "electroreview": "https://github.com/bethwelchrt/learning-commander-cli/issues"
   },
   "homepage": "https://github.com/bethwelchrt/learning-commander-cli#readme",
   "dependencies": {

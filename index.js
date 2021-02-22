@@ -11,6 +11,31 @@ program
   .usage(' ');
   //.usage('encrypt|decrypt <password> <options>');
   
+  program
+  .command('types ')
+   .description('List the lakers starting 5') 
+
+//   .option('-k, --key <string>', 'String|phrase Key to Use')
+  .action(function (password, options) {
+    console.log("")
+    console.log(colors.yellow('   Extra Help Text'));
+    console.log("") 
+
+ 
+   });
+
+   program
+  .command('discover <music> ')
+   .description('List the lakers starting 5') 
+
+//   .option('-k, --key <string>', 'String|phrase Key to Use')
+  .action(function (music, options) {
+    console.log("")
+    console.log(colors.yellow('   Extra Help Text'));
+    console.log("") 
+
+ 
+   });
 //   program
 //   .command('encrypt <password>')
 //   .description('Encrypt a plain text password')
