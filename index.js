@@ -12,8 +12,8 @@ program
   //.usage('encrypt|decrypt <password> <options>');
   
   program
-  .command('types ')
-   .description('List the lakers starting 5') 
+  .command('electroreview ')
+   .description('List of my electrnic review') 
 
 //   .option('-k, --key <string>', 'String|phrase Key to Use')
   .action(function (password, options) {
@@ -25,11 +25,11 @@ program
    });
 
    program
-  .command('discover <music> ')
-   .description('List the lakers starting 5') 
+  .command('electroreview ')
+   .description('List of my electronic review') 
 
 //   .option('-k, --key <string>', 'String|phrase Key to Use')
-  .action(function (music, options) {
+  .action(function (electronicsreview, options) {
     console.log("")
     console.log(colors.yellow('   Extra Help Text'));
     console.log("") 
