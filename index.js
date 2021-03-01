@@ -12,8 +12,8 @@ program
   //.usage('encrypt|decrypt <password> <options>');
   
   program
-  .command('electroreview ')
-   .description('List of my electrnic review') 
+  .command('myschedule')
+   .description('Displays my school course schedule Spring 2021') 
 
 //   .option('-k, --key <string>', 'String|phrase Key to Use')
   .action(function (password, options) {
@@ -24,18 +24,10 @@ program
  
    });
 
-   program
-  .command('electroreview ')
-   .description('List of my electronic review') 
-
-//   .option('-k, --key <string>', 'String|phrase Key to Use')
-  .action(function (electronicsreview, options) {
-    console.log("")
-    console.log(colors.yellow('   Extra Help Text'));
-    console.log("") 
+  
 
  
-   });
+   
 //   program
 //   .command('encrypt <password>')
 //   .description('Encrypt a plain text password')
