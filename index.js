@@ -23,8 +23,10 @@ program
   console.log("")
   console.log(colors.yellow('Premier League Standing'));
   console.log("") 
-console.log(
-table([
+const posheader = colors.yellow('Pos');
+
+
+const mytable =  table([ 
   ['Pos', 'Club','MP', 'W', 'D', 'L', 'Pts'],
   ['1', 'Liverpool','38', '32', '3', '3', '99'],
   ['2', 'Manchester United','38', '26', '3', '9', '81'],
@@ -48,7 +50,10 @@ table([
   ['20', 'Norwhich City','38', '5', '6', '27', '21']
 ])
 
-)
+console.log(mytable)
+
+console.log('');
+console.log('');
 
  });
    
@@ -73,6 +78,10 @@ console.log(
  ])
 
 )
+console.log('');
+console.log('');
+
+
 
   });
 program.on('--help', function(){
