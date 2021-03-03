@@ -58,6 +58,41 @@ table([
 
  });
    
+
+ program
+ .command('season <goalscorers>')
+  .description('Shows the leading goal scorers in the season') 
+
+//   .option('-k, --key <string>', 'String|phrase Key to Use')
+ .action(function (standing, options) {
+   console.log("")
+   console.log(colors.yellow('English Premier League Goal Scorers'));
+   console.log("") 
+console.log(
+ table([
+   ['Rank', 'Name','Club', 'stat'],
+   ['1', 'Jarmy Vardy','Leicester City','23'],
+   ['2', 'Pierre-Emerick Aubameyang','Arsenal','22'],
+   ['3','Danny Ings', 'Southampton','21'],
+   ['4','Raheem Sterling', 'Manchester City','20'],
+   ['5','Mohamed Salah', 'Liverpool','19']
+ ])
+
+)
+
+  });
+program.on('--help', function(){
+  console.log();
+  console.log('Extra Help Text');
+  console.log('');
+  console.log('');
+  console.log('');
+});
+
+
+
+
+
 //   program
 //   .command('encrypt <password>')
 //   .description('Encrypt a plain text password')
