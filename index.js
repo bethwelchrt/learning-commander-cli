@@ -12,16 +12,10 @@ program
   .usage(' ');
   //.usage('encrypt|decrypt <password> <options>');
   
-  program
-  .command('encrypt<password>')
-   .description('Encrypt a plain text password') 
-//   .option('-k, --key <string>', 'String|phrase Key to Use')
-  .action(function (password, options) {
-    console.log('Extra Help Text');
-   });
+  
 
    program
-  .command('premierleague <standing>')
+  .command('standing')
    .description('ENGLISH PREMIER LEAGUE TABLE 2019/2021') 
 
  //   .option('-k, --key <string>', 'String|phrase Key to Use')
@@ -60,7 +54,7 @@ table([
    
 
  program
- .command('season <goalscorers>')
+ .command('goalscorers')
   .description('Shows the leading goal scorers in the season') 
 
 //   .option('-k, --key <string>', 'String|phrase Key to Use')
