@@ -12,10 +12,11 @@ npm install -g premierleague-cli
 
 ## Usage
 
-### command action 1
+### premierleague Standing
 
 Description of command
 
-### command action 2
+### Premierleague goalscorers
+
 
 Description of command
